@@ -15,3 +15,7 @@ Modello teorico che descrive la struttura della rete. Esso è strutturato in var
 2- **Datalink:** Indirizzamento fisico (indirizzo MAC, Switch)
 
 1- **Physical:**  Trasmissione fisica dei bit 
+
+## Three-Way HandShake ##
+Avviene al livello 4-*Transport* è un meccanismo utilizzato da TCP per instaurare una connessione affidabile tra due host. Host1 manda un segnale *SYN* 
+e attende da Host2 una risposta *SYN/ACK*. Dopodichè Host1 rimanda un segnale ACK per chiudere il cerchio e stabilire la connessione.
