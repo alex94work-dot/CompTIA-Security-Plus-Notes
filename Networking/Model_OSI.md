@@ -19,3 +19,13 @@ Modello teorico che descrive la struttura della rete. Esso è strutturato in var
 ## Three-Way HandShake ##
 Avviene al livello 4-*Transport* è un meccanismo utilizzato da TCP per instaurare una connessione affidabile tra due host. Host1 manda un segnale *SYN* 
 e attende da Host2 una risposta *SYN/ACK*. Dopodichè Host1 rimanda un segnale ACK per chiudere il cerchio e stabilire la connessione.
+
+##  TCP vs UDP
+
+| Caratteristica | TCP (Stateful) | UDP (Stateless) |
+| :--- | :--- | :--- |
+| **Connessione** | Orientata alla connessione | Non orientata alla connessione |
+| **Affidabilità** | Alta (controllo errori e rinvio) | "Best Effort" (nessun controllo) |
+| **Ordine** | Garantito | Non garantito |
+| **Velocità** | Più lento (overhead di controllo) | Molto rapido |
+| **Esempi** | Email (SMTP), Web (HTTPS) | Streaming, Gaming, VoIP |
