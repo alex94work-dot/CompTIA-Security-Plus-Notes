@@ -1,6 +1,6 @@
 ## Il modello **OSI** 
 
-Modello teorico che descrive la struttura della rete. Esso è strutturato in vari livelli, precisamente 7 e si leggono dall'alto verso il basso.
+Modello teorico che descrive la struttura della rete. Esso è strutturato in vari livelli, precisamente 7 e si leggono dall'alto verso il basso (incapsulamento)
 
 7- **Application:** connessione tra due applicazioni, HTTPS, DNS, FTP
 
